@@ -90,6 +90,7 @@ jobs:
     - name: Install Feeds(安装feeds)
       run: |
         cd $OPENWRT_PATH
+				chmod +x $DIY_SCRIPT
         ../$DIY_SCRIPT
   
     - name: Load Custom Configuration(加载自定义配置)

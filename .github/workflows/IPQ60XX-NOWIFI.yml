@@ -5,14 +5,14 @@ on:
 
 env:
   REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
-  REPO_BRANCH: openwrt-24.10
+  REPO_BRANCH: k6.12-nss
   CONFIG_FILE: configs/ipq60xx.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-NOWIFI-openwrt-24.10
+  FIRMWARE_TAG: IPQ60XX-NOWIFI-k6.12-nss
   TZ: Asia/Shanghai
 
 jobs:
